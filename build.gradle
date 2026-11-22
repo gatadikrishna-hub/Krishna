@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.lnmilkcenter.app'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.lnmilkcenter.app'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
